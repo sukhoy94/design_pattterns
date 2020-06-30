@@ -1,6 +1,17 @@
 <?php
 
-
+/**
+ * Class Singleton
+ * 
+ * Singleton pattern belongs to creational group of design patterns
+ * 
+ * pluses:
+ *  - controlled access to only instance
+ * minuses:
+ *  - global object is not a OOP way
+ *  - hard to test
+ *  - concurrency problems
+ */
 class Singleton {
     public static $instance = null;
     
