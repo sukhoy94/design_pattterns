@@ -6,3 +6,4 @@
 ### Creational
 * Abstract Factory
 * Singleton
+* Builder
