@@ -7,3 +7,4 @@
 * Abstract Factory
 * Singleton
 * Builder
+* Factory
