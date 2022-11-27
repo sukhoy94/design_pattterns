@@ -7,7 +7,7 @@ namespace Patterns\Structural\Proxy;
 
 class Client
 {
-    public function run()
+    public function run(): void
     {
         echo "Client: Executing the client code with a real subject:\n";
         $realSubject = new RealSubject();
@@ -20,7 +20,7 @@ class Client
         $this->handleSubject($proxy);        
     }
     
-    public function handleSubject(Subject $subject)
+    public function handleSubject(Subject $subject): void
     {
         $subject->request();        
     }
