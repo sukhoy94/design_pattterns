@@ -6,4 +6,4 @@ require_once realpath("vendor/autoload.php");
 
 
 $client = new \Patterns\Structural\Proxy\Client();
-$client->sayHello();
+$client->run();
